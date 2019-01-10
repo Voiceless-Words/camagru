@@ -1,0 +1,114 @@
+body{
+    background: url("cam.jpg");
+    margin-left: 0;
+    margin-top: 0;
+    height: 900px;
+    min-width: 630px;
+}
+.container{
+    width: 100%;
+    min-width: 630px;
+}
+.head{
+    margin-left: 5px;
+    width: 100%;
+    min-width: 630px;
+    top: 0;
+    height: 80px;
+    background-color: cornsilk;
+}
+
+#my_form{
+    margin-top: 4%;
+    margin-left: 55%;
+}
+
+#sign{
+    margin-top: 11%;
+    margin-left: 29%;
+}
+
+.sign{
+    height: 1200px;
+}
+
+#change{
+    margin-top: 20%;
+    margin-left: 29%;
+}
+
+#forgot{
+    margin-top: 12%;
+    margin-left: 29%;
+}
+
+.settings{
+    margin-top: 25%;
+    float: left;
+}
+.photo{
+    margin-bottom: 15%;
+    min-width: 400px;
+}
+textarea{
+    resize: none;
+    background: transparent;
+}
+input[type=text], input[type=email], input[type=password]{
+    margin-top: 10px;
+    min-width: 200px;
+    max-width: 60%;
+    height: 25px;
+    color: whitesmoke;
+    border-left: none;
+    text-indent: 20px;
+    border-right: none;
+    border-top: none;
+    font-family: fantasy;
+    font-size: 15px;
+    position: relative;
+    border-bottom: solid whitesmoke 2px;
+    background-color: transparent;
+}
+a{
+    text-decoration: none;
+
+}
+
+ul{
+    height: 30px;
+    background-color: darkslategrey;
+}
+li{
+
+    width: 10%;
+    height: 30px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 15px;
+    background-color: darkslategrey;
+    display: inline;
+}
+#success{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+input[type=submit],input[type=file], button{
+    margin-top: 5px;
+    border: none;
+    min-width: 205px;
+    max-width: 61%;
+    height: 30px;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 15px;
+    background-color: darkslategrey;
+}
+
+#footer{
+    text-align: center;
+    margin-left: 5px;
+    height: 60px;
+    margin-top: 1%;
+    background-color: cadetblue;
+}
